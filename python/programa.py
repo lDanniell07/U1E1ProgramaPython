@@ -6,11 +6,10 @@ def Ordena(array2,array1):
                 array1[j] = array1[j+1]
                 array1[j+1] = temporal
     return array1
-print("-------> Bienvenid@ <-----------")
+print("------------------------")
 fra = 'Me llamo daniel'
 frase = fra.split(' ')
 archivo = open("frase.txt")  
 texto = archivo.read().split(' ')
 print("Frase Ordenada:")
 print(Ordena(frase,texto))
-print("-------> ¡BYE! <-----------")
